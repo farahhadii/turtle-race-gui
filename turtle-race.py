@@ -173,17 +173,17 @@ def winner_on_podium(n):
   
   if n == name_1:
       turtle_a.penup()   
-      turtle_a.goto(-35,-65)
+      turtle_a.goto(-35,-55)
       turtle_a.pendown()
            
   elif n == name_2:
       turtle_b.penup()   
-      turtle_b.goto(-35,-65)
+      turtle_b.goto(-35,-55)
       turtle_b.pendown()   
           
   else:
       turtle_c.penup()   
-      turtle_c.goto(-35,-65)
+      turtle_c.goto(-35,-55)
       turtle_c.pendown()    
   turtle.penup()   
   turtle.goto(-250,-10)
